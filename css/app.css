@@ -28,9 +28,25 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 .main-menu {
     display: flex;
     gap: 10px;
+    padding: 0 100px;
+}
+
+
+
+
+
+
+/* DEBUG */
+.navbar.debug {
+    border: 2px dotted black;
+    background-color: rgb(196, 151, 36);
+}
+.main-menu.debug{
+    border: 3px dotted black;
 }
