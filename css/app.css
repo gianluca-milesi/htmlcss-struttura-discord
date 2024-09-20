@@ -49,6 +49,10 @@ img {
     width: 33%;
 }
 
+.col-33.color-dark-pink{
+    background-color: rgb(240, 128, 128);
+}
+
 
 /* HEADER */
 .main-header {
@@ -92,6 +96,11 @@ img {
 
 .customer-reviews{
     background-color: rgb(211, 211, 211);
+}
+
+.categories{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
