@@ -19,6 +19,33 @@ img {
     max-width: 100%;
 }
 
+
+/* LAYOUT */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-67 {
+    width: 67%;
+    height: 350px;
+}
+
+.col-33 {
+    width: 33%;
+    height: 350px;
+}
+
+
+
+
+
 /* HEADER */
 .main-header {
     padding: 10px 60px;
@@ -39,18 +66,25 @@ img {
 }
 
 
-/* LAYOUT */
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    height: 250px;
-    border-radius: 10px;
-}
 
 
 /* MAIN */
 .hero {
     background-color: rgb(0, 0, 138);
+    padding: 40px 0;
+}
+
+.hero-container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgb(238, 130, 238);
+    border: 2px dashed black;
+    border-radius: 10px;
+
+}
+
+.promo-banner {
     padding: 40px 0;
 }
 
@@ -65,12 +99,12 @@ img {
     border: 2px dashed black;
     background-color: rgb(203, 157, 38);
 }
-
-.main-menu.debug {
-    border: 3px dashed black;
-}
-
-.container.debug {
-    background-color: rgb(238, 130, 238);
+.debug {
     border: 2px dashed black;
+}
+.col-33.debug{
+    background-color: rgb(255, 192, 203);
+}
+.col-67.debug{
+    background-color: rgb(30, 144, 255);
 }
