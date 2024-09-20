@@ -18,3 +18,19 @@ a {
 img {
     max-width: 100%;
 }
+
+/* HEADER */
+.main-header {
+    padding: 10px 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu {
+    display: flex;
+    gap: 10px;
+}
