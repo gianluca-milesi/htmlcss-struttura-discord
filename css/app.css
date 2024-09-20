@@ -34,12 +34,10 @@ img {
 
 .col-67 {
     width: 67%;
-    height: 350px;
 }
 
 .col-33 {
     width: 33%;
-    height: 350px;
 }
 
 
@@ -66,8 +64,6 @@ img {
 }
 
 
-
-
 /* MAIN */
 .hero {
     background-color: rgb(0, 0, 138);
@@ -77,15 +73,17 @@ img {
 .hero-container {
     max-width: 600px;
     margin: 0 auto;
-    height: 250px;
+    height: 250px; /* perché non ho contenuto */
     background-color: rgb(238, 130, 238);
-    border: 2px dashed black;
     border-radius: 10px;
-
 }
 
-.promo-banner {
+.padding-40y {
     padding: 40px 0;
+}
+
+.featured-products {
+    background-color: rgb(211, 211, 211);
 }
 
 
@@ -96,15 +94,19 @@ img {
 
 /* DEBUG */
 .navbar.debug {
-    border: 2px dashed black;
     background-color: rgb(203, 157, 38);
 }
 .debug {
     border: 2px dashed black;
 }
-.col-33.debug{
+
+.col-33 {
     background-color: rgb(255, 192, 203);
+    height: 346px;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;;
 }
-.col-67.debug{
+.col-67 {
     background-color: rgb(30, 144, 255);
+    height: 346px;
 }
