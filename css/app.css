@@ -43,14 +43,21 @@ img {
 
 .col-67 {
     width: 67%;
+    background-color: rgb(30, 144, 255);
 }
 
 .col-33 {
     width: 33%;
+    background-color: rgb(255, 192, 203);
 }
 
 .col-33.color-dark-pink{
     background-color: rgb(240, 128, 128);
+}
+
+.col-16{
+    width: calc(100% / 6);
+    background-color: rgb(32, 178, 170);
 }
 
 
@@ -101,6 +108,7 @@ img {
 .categories{
     max-width: 800px;
     margin: 0 auto;
+    background-color: rgb(35, 39, 42);
 }
 
 
@@ -119,13 +127,16 @@ img {
 }
 
 .col-33 {
-    background-color: rgb(255, 192, 203);
     height: 346px; /* perché non ho contenuto */
     border-left: 2px dashed black;
     border-right: 2px dashed black;
 }
 
 .col-67 {
-    background-color: rgb(30, 144, 255);
     height: 346px; /* perché non ho contenuto */
+}
+
+.col-16{
+    height: 346px; /* perché non ho contenuto */
+    border: 2px dashed white;
 }
