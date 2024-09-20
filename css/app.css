@@ -22,6 +22,7 @@ img {
 /* HEADER */
 .main-header {
     padding: 10px 60px;
+    background-color: rgb(203, 236, 229);
 }
 
 .navbar {
@@ -38,15 +39,38 @@ img {
 }
 
 
+/* LAYOUT */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+/* MAIN */
+.hero {
+    background-color: rgb(0, 0, 138);
+    padding: 40px 0;
+}
+
+
+
 
 
 
 
 /* DEBUG */
 .navbar.debug {
-    border: 2px dotted black;
-    background-color: rgb(196, 151, 36);
+    border: 2px dashed black;
+    background-color: rgb(203, 157, 38);
 }
-.main-menu.debug{
-    border: 3px dotted black;
+
+.main-menu.debug {
+    border: 3px dashed black;
+}
+
+.container.debug {
+    background-color: rgb(238, 130, 238);
+    border: 2px dashed black;
 }
