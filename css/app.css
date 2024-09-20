@@ -51,7 +51,7 @@ img {
     background-color: rgb(255, 192, 203);
 }
 
-.col-33.color-dark-pink{
+.background-color-dark-pink{
     background-color: rgb(240, 128, 128);
 }
 
@@ -67,7 +67,7 @@ img {
     background-color: rgb(203, 236, 229);
 }
 
-.navbar {
+.navbar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +79,7 @@ img {
 .main-menu {
     display: flex;
     gap: 10px;
-    padding: 0 100px;
+    padding: 0 150px;
 }
 
 
@@ -106,9 +106,25 @@ img {
 }
 
 .categories{
-    max-width: 800px;
     margin: 0 auto;
     background-color: rgb(35, 39, 42);
+}
+
+
+/* FOOTER */
+.footer{
+    padding: 10px 60px 0 60px;
+    background-color: rgb(35, 39, 42);
+    border-top: 1px solid white;
+}
+.navbar-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: rgb(120, 238, 198);
 }
 
 
@@ -116,9 +132,8 @@ img {
 
 
 
-
 /* DEBUG */
-.navbar.debug {
+.navbar-header.debug {
     background-color: rgb(203, 157, 38);
 }
 
@@ -140,3 +155,4 @@ img {
     height: 346px; /* perché non ho contenuto */
     border: 2px dashed white;
 }
+
