@@ -137,14 +137,8 @@ img {
     background-color: rgb(203, 157, 38);
 }
 
-.debug {
-    border: 2px dashed black;
-}
-
 .col-33 {
     height: 346px; /* perché non ho contenuto */
-    border-left: 2px dashed black;
-    border-right: 2px dashed black;
 }
 
 .col-67 {
@@ -156,3 +150,6 @@ img {
     border: 2px dashed white;
 }
 
+body.debug * :not(body > :nth-child(-n+3)):not(main > *){
+    border: 2px dashed black;
+}
