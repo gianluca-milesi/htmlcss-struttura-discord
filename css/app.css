@@ -19,15 +19,6 @@ img {
     max-width: 100%;
 }
 
-.padding-40y {
-    padding: 40px 0;
-}
-
-.container.customer{
-    background-color: green;
-    height: 600px;
-}
-
 
 /* LAYOUT */
 .container {
@@ -41,23 +32,23 @@ img {
     flex-wrap: wrap;
 }
 
+.col-16{
+    width: calc(100% / 6);
+    background-color: rgb(32, 178, 170);
+    border: 2px dashed white;
+    height: 346px; /* perché non ho contenuto */
+}
+
 .col-67 {
     width: 67%;
     background-color: rgb(30, 144, 255);
+    height: 346px; /* perché non ho contenuto */
 }
 
 .col-33 {
     width: 33%;
     background-color: rgb(255, 192, 203);
-}
-
-.background-color-dark-pink{
-    background-color: rgb(240, 128, 128);
-}
-
-.col-16{
-    width: calc(100% / 6);
-    background-color: rgb(32, 178, 170);
+    height: 346px; /* perché non ho contenuto */
 }
 
 
@@ -74,6 +65,7 @@ img {
     padding: 0 10px;
     max-width: 800px;
     margin: 0 auto;
+    background-color: rgb(203, 157, 38);
 }
 
 .main-menu {
@@ -128,28 +120,26 @@ img {
 }
 
 
+/* UTILITIES */
+.bg-darkpink{
+    background-color: rgb(240, 128, 128);
+}
+
+.padding-40y {
+    padding: 40px 0;
+}
+
+.container.bg-green{
+    background-color: green;
+}
+.h-600{
+    height: 600px;
+}
 
 
 
 
 /* DEBUG */
-.navbar-header.debug {
-    background-color: rgb(203, 157, 38);
-}
-
-.col-33 {
-    height: 346px; /* perché non ho contenuto */
-}
-
-.col-67 {
-    height: 346px; /* perché non ho contenuto */
-}
-
-.col-16{
-    height: 346px; /* perché non ho contenuto */
-    border: 2px dashed white;
-}
-
-body.debug * :not(body > :nth-child(-n+3)):not(main > *){
+body.debug * :not(body > :nth-child(-n+3)):not(main > *):not(.row):not(.col-16){
     border: 2px dashed black;
 }
